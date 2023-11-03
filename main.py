@@ -1,3 +1,9 @@
-
-#  print('Merhaba Dünya')
-print('Merhaba Şahin Hocam')
+print("türkiyedeki şehirlerin kaç harfli olduğunu hesaplıyalım.") 
+Akdenizsehir1 = input("Akdenizdeki sehirleri giriniz:")
+Karadenizsehir = input("Karadenizdeki şehirleri giriniz:")
+Icanadolu = input("İç anadoludaki sehirleri giriniz:")
+Doguanadolu = input("Dogu anadoludaki şehirleri giriniz:")
+Ege = input("Egedeki şehirleri giriniz:")
+Marmara = input("Marmaradaki şehirleri giriniz:")
+Guneydoguanadolu = input("Güneydoğuanadoludaki şehirleri giriniz:")
+Turkiye = print(len(Akdenizsehir1 + Karadenizsehir + Icanadolu + Doguanadolu + Ege + Marmara + Guneydoguanadolu ))
